@@ -20,5 +20,12 @@ As soon as it receives a request, it breaks it into multiple requests (if needed
 
 In this article, we are going to use Ocelot API Gateway. It is a lightweight, open-source, scalable, and fast API Gateway based on .NET Core and specially designed for microservices architecture. Basically, it is a set of middleware designed to work with ASP.NET Core. It has several features such as routing, caching, security, rate limiting, etc.
 
+#  MicroServices with 4 APIs
+1.Product
+2.Invoice
+3.Order
+4.Case
+
+
 
 
