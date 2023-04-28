@@ -23,3 +23,4 @@ C:\Users\Aux-126\Desktop\Assigment4\MTIT.lab\OrderDomain\obj\Debug\netcoreapp3.1
 C:\Users\Aux-126\Desktop\Assigment4\MTIT.lab\OrderDomain\obj\Debug\netcoreapp3.1\Order.dll
 C:\Users\Aux-126\Desktop\Assigment4\MTIT.lab\OrderDomain\obj\Debug\netcoreapp3.1\Order.pdb
 C:\Users\Aux-126\Desktop\Assigment4\MTIT.lab\OrderDomain\obj\Debug\netcoreapp3.1\Order.genruntimeconfig.cache
+C:\Users\Aux-126\Desktop\Assigment4\MTIT.lab\OrderDomain\obj\Debug\netcoreapp3.1\Order.csproj.AssemblyReference.cache

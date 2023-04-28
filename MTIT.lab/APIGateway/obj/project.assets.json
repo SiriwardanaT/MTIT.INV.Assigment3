@@ -285,19 +285,19 @@
           }
         }
       },
-      "MMLib.SwaggerForOcelot/1.10.0": {
+      "MMLib.SwaggerForOcelot/2.5.0": {
         "type": "package",
         "dependencies": {
           "Kros.Utils": "1.10.1",
           "Microsoft.Extensions.Http": "3.0.1",
-          "Ocelot": "13.8.0",
+          "Ocelot": "16.0.1",
           "Swashbuckle.AspNetCore.SwaggerUI": "5.0.0-rc4"
         },
         "compile": {
-          "lib/netcoreapp3.0/MMLib.SwaggerForOcelot.dll": {}
+          "lib/netcoreapp3.1/MMLib.SwaggerForOcelot.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/MMLib.SwaggerForOcelot.dll": {}
+          "lib/netcoreapp3.1/MMLib.SwaggerForOcelot.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.2": {
@@ -321,7 +321,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "Ocelot/16.0.0": {
+      "Ocelot/16.0.1": {
         "type": "package",
         "dependencies": {
           "FluentValidation": "8.6.2",
@@ -1900,16 +1900,17 @@
         "version.txt"
       ]
     },
-    "MMLib.SwaggerForOcelot/1.10.0": {
-      "sha512": "mn84MFRF6WA7p1ekQh77VbKL2rWNXmjHR10XilBj5BEFrsXyjK8lAdxCH1jiq7dimOPPTWPF56HgBwAIRCMIrw==",
+    "MMLib.SwaggerForOcelot/2.5.0": {
+      "sha512": "oq4X3TL530XKzFx7IVklSgslqfEs+0o8NTi4y+FX6jnceUZ7kEPQrG4WXdJn4wU3Y/HCvSZVWYjRw0706ZubFA==",
       "type": "package",
-      "path": "mmlib.swaggerforocelot/1.10.0",
+      "path": "mmlib.swaggerforocelot/2.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netcoreapp3.0/MMLib.SwaggerForOcelot.dll",
-        "lib/netcoreapp3.0/MMLib.SwaggerForOcelot.xml",
-        "mmlib.swaggerforocelot.1.10.0.nupkg.sha512",
+        "icon.png",
+        "lib/netcoreapp3.1/MMLib.SwaggerForOcelot.dll",
+        "lib/netcoreapp3.1/MMLib.SwaggerForOcelot.xml",
+        "mmlib.swaggerforocelot.2.5.0.nupkg.sha512",
         "mmlib.swaggerforocelot.nuspec"
       ]
     },
@@ -1964,15 +1965,15 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "Ocelot/16.0.0": {
-      "sha512": "ncHmcjI6hrDp4wef85OtbbTxz9D7+lOHb0sOHFQO/+FshqmWCGziT7P5bgRTOhzYYIvfZZMWXifa874g+5j7Yw==",
+    "Ocelot/16.0.1": {
+      "sha512": "OlhGjx0NWplsW6u+hEkCfhvOxtnVzD6myyccelaQWYHIw6Jfe2U3UVgfDrv0afZueeshrbyJTrBKWQndkSRXNg==",
       "type": "package",
-      "path": "ocelot/16.0.0",
+      "path": "ocelot/16.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netcoreapp3.1/Ocelot.dll",
-        "ocelot.16.0.0.nupkg.sha512",
+        "ocelot.16.0.1.nupkg.sha512",
         "ocelot.nuspec"
       ]
     },
@@ -4466,8 +4467,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "MMLib.SwaggerForOcelot >= 1.10.0",
-      "Ocelot >= 16.0.0",
+      "MMLib.SwaggerForOcelot >= 2.5.0",
+      "Ocelot >= 16.0.1",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -4512,11 +4513,11 @@
         "dependencies": {
           "MMLib.SwaggerForOcelot": {
             "target": "Package",
-            "version": "[1.10.0, )"
+            "version": "[2.5.0, )"
           },
           "Ocelot": {
             "target": "Package",
-            "version": "[16.0.0, )"
+            "version": "[16.0.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
