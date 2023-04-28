@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XVff/IBgCtdlk9Cdw/7wsHwqSrvoxhLqDUNsF0Em0no0PJ1WLWeVKNBjy6t6BxI7VZMj/apOlmC83PA/cYYsxg==",
+  "dgSpecHash": "t7/1n6qJVwstVGvP4uOBzaF9ReWFSFaTxaP2n4h7PRO6Elu2rs/queqkVOvrvMu2AqOYPrVofYe7zzgQ1oKRYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aux-126\\Desktop\\Assigment4\\MTIT.lab\\APIGateway\\APIGateway.csproj",
   "expectedPackageFiles": [
@@ -27,10 +27,10 @@
     "C:\\Users\\Aux-126\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Aux-126\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Aux-126\\.nuget\\packages\\microsoft.win32.registry\\4.6.0\\microsoft.win32.registry.4.6.0.nupkg.sha512",
-    "C:\\Users\\Aux-126\\.nuget\\packages\\mmlib.swaggerforocelot\\1.10.0\\mmlib.swaggerforocelot.1.10.0.nupkg.sha512",
+    "C:\\Users\\Aux-126\\.nuget\\packages\\mmlib.swaggerforocelot\\2.5.0\\mmlib.swaggerforocelot.2.5.0.nupkg.sha512",
     "C:\\Users\\Aux-126\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\Aux-126\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "C:\\Users\\Aux-126\\.nuget\\packages\\ocelot\\16.0.0\\ocelot.16.0.0.nupkg.sha512",
+    "C:\\Users\\Aux-126\\.nuget\\packages\\ocelot\\16.0.1\\ocelot.16.0.1.nupkg.sha512",
     "C:\\Users\\Aux-126\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\Aux-126\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\Aux-126\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

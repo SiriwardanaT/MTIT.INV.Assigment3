@@ -37,8 +37,10 @@
           "Host": "localhost",
           "Port": 44316
         }
-      ]
+      ],
+      "SwaggerKey": "Invoice"
     },
+
     {
 
       "UpstreamPathTemplate": "/gateway/Invoice/{id}",
@@ -103,10 +105,108 @@
           "Port": 44303
         }
       ]
+    },
+    {
+
+      "UpstreamPathTemplate": "/gateway/Case/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ],
+      "DownstreamPathTemplate": "/api/Case/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44303
+        }
+      ],
+      "SwaggerKey": "Case"
+    },
+    {
+
+      "UpstreamPathTemplate": "/gateway/Order/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ],
+      "DownstreamPathTemplate": "/api/Order/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44384
+        }
+      ],
+      "SwaggerKey": "Order"
+    },
+    {
+
+      "UpstreamPathTemplate": "/gateway/Invoice/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ],
+      "DownstreamPathTemplate": "/api/Invoice/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44316
+        }
+      ],
+      "SwaggerKey": "Invoice"
+    },
+    {
+
+      "UpstreamPathTemplate": "/gateway/Product/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ],
+      "DownstreamPathTemplate": "/api/Product/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44363
+        }
+      ],
+      "SwaggerKey": "Product"
+    }
+  ],
+
+  "SwaggerEndPoints": [
+    {
+      "Key": "Invoice",
+      "Config": [
+        {
+          "Name": "Invoice API",
+          "Version": "v1",
+          "Url": "https://localhost:44316/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Product",
+      "Config": [
+        {
+          "Name": "Product API",
+          "Version": "v1",
+          "Url": "https://localhost:44363/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Order",
+      "Config": [
+        {
+          "Name": "Order API",
+          "Version": "v1",
+          "Url": "https://localhost:44384/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Case",
+      "Config": [
+        {
+          "Name": "Case API",
+          "Version": "v1",
+          "Url": "https://localhost:44303/swagger/v1/swagger.json"
+        }
+      ]
     }
   ],
   "GlobalConfiguration": {
     "BaseUrl": "http://localhost:44330"
   }
-
 }  

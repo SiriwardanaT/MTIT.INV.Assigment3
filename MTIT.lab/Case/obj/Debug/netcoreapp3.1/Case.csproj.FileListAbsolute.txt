@@ -23,3 +23,4 @@ C:\Users\Aux-126\Desktop\Assigment4\MTIT.lab\Case\obj\Debug\netcoreapp3.1\static
 C:\Users\Aux-126\Desktop\Assigment4\MTIT.lab\Case\obj\Debug\netcoreapp3.1\Case.dll
 C:\Users\Aux-126\Desktop\Assigment4\MTIT.lab\Case\obj\Debug\netcoreapp3.1\Case.pdb
 C:\Users\Aux-126\Desktop\Assigment4\MTIT.lab\Case\obj\Debug\netcoreapp3.1\Case.genruntimeconfig.cache
+C:\Users\Aux-126\Desktop\Assigment4\MTIT.lab\Case\obj\Debug\netcoreapp3.1\Case.csproj.AssemblyReference.cache

@@ -42,11 +42,11 @@
           "dependencies": {
             "MMLib.SwaggerForOcelot": {
               "target": "Package",
-              "version": "[1.10.0, )"
+              "version": "[2.5.0, )"
             },
             "Ocelot": {
               "target": "Package",
-              "version": "[16.0.0, )"
+              "version": "[16.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
