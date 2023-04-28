@@ -27,5 +27,13 @@ In this article, we are going to use Ocelot API Gateway. It is a lightweight, op
 4.Case
 
 
+Project versions
+
+Asp.net core 3.1
+Ocelot 16.0.1
+Swashbuckle.AspNetCore 6.5.0
+SwaggerForOcelot 2.5.0
+
+
 
 
